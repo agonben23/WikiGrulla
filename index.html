@@ -2,17 +2,21 @@
 <head>
     <meta charset="UTF-8"/>
     <title>WikiGrulla</title>
-    
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
  
-    <link type="stylesheet" type="text/css" href="./index.css">
-
-<br>
-
-<input id="searchbar" onkeyup="search_wiki()" type="text"
+<section id="page">
+  <header>
+    <input id="searchbar" onkeyup="search_wiki()" type="text"
         name="search" placeholder="Search wikis..">
+  </header>
+  
+  <nav>Navigation</nav>
+  <main>
+
+    <br>
 
 <h1>WikiGrulla</h1>
 
@@ -20,12 +24,21 @@
 
 
 <ul id='list'>
+  <!--
     <li class="wikis"><a href="./wikis/otgk.html">Organización del Tratado Grullil de Kyoland (OTGK)</a></li>
     <br>
     <li class="wikis"><a href="./wikis/otgk.html">Sindrome</a></ul>
+  -->
+<script src="./load_wikis.js"></script>
+  
 </li>
 
-<script src="./index.js"></script>
+<script src="./search_wiki.js"></script>
+  
+  </main>
+  
+  <footer>Footer</footer>
+</section>
 
 </body>
 
