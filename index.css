@@ -28,8 +28,9 @@ input[type=text]:focus {
 
 #page {
   display: grid;
+  height: 100%;
   width: 100%;
-  height: 250px;
+  margin: 0;
   grid-template-areas:
     "head head"
     "nav  main"
@@ -45,15 +46,15 @@ input[type=text]:focus {
 
 #page > nav {
   grid-area: nav;
-  background-color: #ffa08c;
+  background-color: #14e192;
 }
 
 #page > main {
   grid-area: main;
-  background-color: #ffff64;
+  background-color: #a3edff;
 }
 
 #page > footer {
   grid-area: foot;
-  background-color: #8cffa0;
+  background-color: #b3b3b3;
 }
